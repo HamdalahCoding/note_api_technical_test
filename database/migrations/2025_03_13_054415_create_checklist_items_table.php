@@ -10,7 +10,7 @@ return new class extends Migration {
         Schema::create('checklist_items', function (Blueprint $table) {
             $table->id();
             $table->foreignId('checklist_id')->constrained('checklists')->onDelete('cascade');
-            $table->string('itemName');
+            $table->string('item_name');
             $table->boolean('is_done')->default(false);
             $table->timestamps();
         });

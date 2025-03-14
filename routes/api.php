@@ -20,3 +20,6 @@ Route::delete('/checklist/{id}', [ChecklistController::class, 'destroy']);
 Route::get('/checklist/{id}/items', [ChecklistItemController::class, 'index']);
 Route::post('/checklist/{id}/items', [ChecklistItemController::class, 'store']);
 Route::put('/checklist/{checklistId}/items/{itemId}/status', [ChecklistItemController::class, 'updateStatus']);
+Route::delete('/checklist/{checklistId}/items/{itemId}', [ChecklistItemController::class, 'destroy']);
+Route::put('/checklist/{checklistId}/items/rename/{itemId}', [ChecklistItemController::class, 'rename']);
+
