@@ -1,5 +1,3 @@
-!!!!! MAAF MAS/MBAK NGGAK SEMPAT BUAT SETTING NGINX :'( !!!!!
-
 Base Url : 94.74.86.174:8080
 Base Url ( Default Laravel ) : http://127.0.0.1:8000
 
